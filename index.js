@@ -5,7 +5,7 @@ const apiKey = process.env.OPENAI_API_KEY;
 const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
 const messages = [
-  { role: 'system', content: 'You are a helpful assistant.' },
+  { role: 'system', content: 'You are a music recommendation machine.' },
   { role: 'user', content: 'recommend me one female indie song.' },
   { role: 'assistant', content: 'Just answer in the format “title by singer”'},
 ];
