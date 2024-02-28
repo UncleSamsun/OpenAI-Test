@@ -2,11 +2,10 @@
   "name": "openaitest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build"
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +14,7 @@
     "axios": "^1.6.7",
     "dependencies": "^0.0.1",
     "dotenv": "^16.4.5",
-    "openai": "^4.28.0"
+    "openai": "^4.28.0",
+    "parcel": "^2.11.0"
   }
 }
