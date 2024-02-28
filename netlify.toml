@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"  # 빌드 스크립트
+  publish = "build/"        # 빌드된 파일이 위치한 디렉토리
+
+[settings]
+  NODE_VERSION = "20.11.1"        # Node.js 버전 지정
