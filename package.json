@@ -14,7 +14,9 @@
     "axios": "^1.6.7",
     "dependencies": "^0.0.1",
     "dotenv": "^16.4.5",
-    "openai": "^4.28.0",
-    "parcel": "^2.11.0"
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
   }
 }
